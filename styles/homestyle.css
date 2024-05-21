@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primarycolor:#0e6253;
+    --secondarycolor:#ffc107;
+    --whitecolor:#fff;
+    --blackcolor:#222;
+    --softgreencolor:#d9f2ee;
+    --darkgreycolor:#a7a7a7;
+    --greycolor:#f5f5f5;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--primarycolor) ;
+    color: var(--whitecolor);
+    text-transform: capitalize;
+    padding: 0.2cm;
+}
+#a{
+    margin-left: 8cm;
+}
+a{
+    color: var(--whitecolor);
+    text-transform: capitalize;
+}
+
+.footer{
+    background: var(--blackcolor);
+    display: flex;
+    color: var(--whitecolor);
+    justify-content: space-between;
+    font-family: initial;
+    text-transform: capitalize;
+    padding-left:1cm ;
+    padding-top:1cm ;
+    padding-bottom:1cm ;
+    padding-right: 1cm;
+    margin: 0;
+    
+   
+    
+  
+}
+nav p:hover{
+    background-color: var(--secondarycolor);
+    border-radius:30px ;
+    width: 4cm;
+    text-align: center;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+  
+
+}
+nav p{
+    transition: 2s;
+}
+
+img:hover{
+    box-shadow:var(--greycolor);
+    cursor: pointer;
+}
+ 
+#sub-home-content-p,#sub-sub-home-content-p{
+    color: var(--secondarycolor);
+    text-align: center;
+    font-size: 30px;
+    width: 15cm;
+    margin-bottom: 200px;
+    
+ } 
+
+#fff{
+    text-align: center;
+}
+/* 
+.location,.services,.follow {
+
+font-family: algerian;
+transform: rotate(-5deg); */
+
+/* } */
+
+#real-footer{
+    background-color: var(--primarycolor);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.location,.services,.follow:hover{
+    text-transform: rotate(90deg);
+}
+
+
+#logo1{
+    height: 10px;
+    color: white;
+}
+
+.sub-home-content {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    margin-right: 15cm;
+}
+
+.sub-home-content img {
+    position: absolute;
+    width: 120px; /* adjust the size of the images as needed */
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 1cm;
+}
+#logo1{
+    color: cadetblue;
+    width:19px;
+    height: 19px;
+    border-radius: 20px;
+}
+img{
+    padding: -2cm;
+}
+
+nav  img{
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+}
+nav  p{
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
